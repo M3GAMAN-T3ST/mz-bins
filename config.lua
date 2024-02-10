@@ -6,7 +6,7 @@ Config = Config or {}
 --MZ-BINS--
 -----------
 
-Config.NotifyType = 'okok'              -- notification type: 'qb' for qb-core standard notifications, 'okok' for okokNotify notifications
+Config.NotifyType = 'qb'              -- notification type: 'qb' for qb-core standard notifications, 'okok' for okokNotify notifications
 
 -------------------------
 --BIN DIVING PROPERTIES--
@@ -24,7 +24,7 @@ Config.SearchTimeHigh = 5               -- Highest time it will take to search a
 --MZ-SKILLS--
 -------------
 
-Config.mzskills = true                  -- change to 'false' to utilise resource without using mz-skills re: "Searching" skill
+Config.mzskills = false                  -- change to 'false' to utilise resource without using mz-skills re: "Searching" skill
 -- If "Config.mzskills = true", the following parameters will apply:
 
 Config.BinSkill = "Searching"           -- Name of the skill that will apply when using mz-bins (must be the same as a skill from mz-skills/config.lua)
