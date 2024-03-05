@@ -64,12 +64,12 @@ RegisterNetEvent("QBCore:Client:OnPlayerLoaded", function()
 end)
 
 CreateThread(function()
-    exports['qb-target']:AddBoxZone("craftbinparts", vector3(-1156.22, -1999.3, 13.18), 3.8, 1, {
+    exports['qb-target']:AddBoxZone("craftbinparts", vector3(2342.41, 3141.9, 48.21), 3.8, 1, {
         name = "craftbinparts",
-        heading = 314,
+        heading = 81.04,
         debugPoly = false,
-        minZ = 9.78,
-        maxZ = 13.78,
+        minZ = 47.78,
+        maxZ = 49.78,
         }, {
             options = { 
             {
